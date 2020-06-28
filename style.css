@@ -1,0 +1,38 @@
+img {
+    border:solid;
+}
+.header{
+    background-color:#CDB599FF;
+     border:solid;
+}
+h1{
+    border:solid;
+    padding-top:100px;
+    
+}
+.game{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.item:hover img{
+opacity: 0.3;
+}
+
+a:link{
+  color:whitesmoke  
+}
+a:visited{
+    color:palevioletred
+}
+#borderImg{
+    border:20px solid;
+    padding:50px;
+    border-image: url(border.png) 30 round;
+   
+}
